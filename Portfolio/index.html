@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- My Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+    <!-- My CSS Link -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Portfolio Example</title>
+
+    <!-- What is Bootstrap?
+    
+    Bootstrap is an HTML, CSSnd JavaScript framework for developing responsive mobile first projects.
+
+    How do I use Bootstrap?
+
+        - Head to https://getbootstrap.com/
+        - Click the "Get Started" button
+    -->
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#">Projects</a>
+              <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+
+    <!-- Header Section (aka "Landing Page") -->
+    <div class="container-fluid landing">
+
+      <div class="container">
+        <h1 class="display-4">
+          Fluid Landing Container
+        </h1>
+        <p class="lead">This is a modified container that occupies the entire horizontal space of its parent.</p>
+        <p>This is a "non-lead" p tag</p>
+      </div>
+    </div>
+
+
+    <!-- Projects (using Bootstap's grid system)
+
+      - Bootstrap's grid system has 12 total columns
+      - It has "row" and "col" classes
+    -->
+
+    <section id="projects">
+
+      <h1 style= "text-align: center;">Projects</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quidem aliquam veritatis earum accusantium, odit nam corrupti eum aliquid. Ab voluptatibus ex totam atque asperiores omnis odio eveniet obcaecati necessitatibus.
+            </p>
+          </div>
+          <div class="col-4">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque beatae odio voluptate ullam libero sed cupiditate incidunt repellat excepturi, cumque tempore enim dolore quod saepe ipsum ut animi vel, quas quae minima non perspiciatis est commodi. Cum tempora provident porro.
+            </p>
+          </div>
+          <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut illo eaque rem deserunt? Obcaecati quod iusto saepe numquam neque! Inventore quasi temporibus obcaecati. Molestiae fugit rerum, eligendi sed eum exercitationem quae quos reiciendis quidem, distinctio modi necessitatibus. Iste expedita doloremque aspernatur, tempore harum quo vel earum similique dignissimos vero?
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- About -->
+
+
+    <!-- Contact -->
+    <!-- Our contact form is powered by Formspree. Formspree is a free email service for HTML forms, that
+    re-routes any form submission to the provided email address (make sure to use your personal email). This allows
+    us to use form submission on our portfolios without using any JavaScript to post/route the form to us. Formspree
+    does this for us!
+    -->
+
+    <section id="contact">
+
+      <div class="container">
+        <h2 class="text-center text-uppcase">Contact Me:</h2>
+
+        <!-- <div class="row">
+        <div class="col-12"> -->
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mjvjaoqo" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+        <!-- </div>
+        </div> -->
+      </div>
+    </section>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

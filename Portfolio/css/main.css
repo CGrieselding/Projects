@@ -1,0 +1,15 @@
+/*
+    Using multiple CSS files allows us to break up our CSS into more readable/manageable chunks that
+    pertain to each section of the webpage we are working on. We can import each CSS file we create
+    into a "main.css" file. This is the file that we link inside our HTML, and when read it imports
+    all of the our CSS files that we import into the main.css file.
+*/
+
+@import "variables.css";
+@import "body.css";
+@import "navbar.css";
+@import "header.css";
+@import "about.css";
+@import "projects.css";
+@import "contact.css";
+@import "footer.css";
