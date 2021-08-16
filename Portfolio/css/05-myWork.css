@@ -1,0 +1,33 @@
+#myWork {
+    padding: 150px 100px 150px 100px;
+    border: 10px solid #f5463a;
+    margin: 200px 150px 200px 150px;
+}
+
+#myWorkTitle {
+    font-family: "Logo Font";
+    text-align: center;
+    color: #f5463a;
+    padding-bottom: 55px;
+}
+
+#myEFAWork {
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #f5463a;
+    text-align: center;
+}
+
+#myEFAWorkButton {
+    background-color: #f5463a;
+
+}
+
+#myEFAWorkButton:hover {
+    background-color: white;
+    border: 2px solid #f5463a;
+    color: #f5463a;
+    outline: 2px solid #f5463a;
+    outline-offset: -8px;
+}

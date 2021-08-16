@@ -1,0 +1,40 @@
+#contact {
+    padding: 150px 100px 150px 100px;
+    border: 10px solid #22afb4;
+    margin: 200px 150px 200px 150px;
+}
+
+#contactTitle {
+    font-family: "Logo Font";
+    text-align: center;
+    color: #22afb4;
+    padding-bottom: 55px;
+}
+
+.form-label {
+    font-family: 'Quicksand', sans-serif;
+    color: #22afb4;
+    font-weight: bolder;
+}
+
+input:focus, textarea:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: #22afb4 !important;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #22afb4 !important;
+    outline: 0 none !important;
+}
+
+.btn{
+    background-color: #22afb4;
+    border: none;
+    padding: 10px 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 2px solid #22afb4;
+    color: #22afb4;
+    outline: 2px solid #22afb4;
+    outline-offset: -8px;
+}

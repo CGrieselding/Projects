@@ -1,0 +1,50 @@
+#about {
+    padding: 150px 100px 150px 100px;
+    border: 10px solid #22afb4;
+    margin: 200px 150px 200px 150px;
+}
+
+#about:hover {
+    padding: 100px 50px 100px 50;
+}
+
+#aboutMeTitle {
+    font-family: "Logo Font";
+    text-align: center;
+    color:#22afb4;
+    padding-bottom: 65px;
+}
+
+#myPicture {
+    border: 3px solid #22afb4;
+    border-radius: 30px;
+}
+
+#aboutMeText {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17.5px;
+    color: #22afb4;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+}
+
+#myResume {
+    color: whitesmoke;
+    background-color: #22afb4;
+    border: 2px solid #22afb4;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myResume:hover{
+    background-color: #f5463a;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    outline: 2px solid whitesmoke;
+    outline-offset: -8px;
+}

@@ -1,0 +1,17 @@
+.footer {
+    font-family: "NavBar Font";
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+#footerTitle {
+    padding-bottom: 5px;
+    color: #f5463a;
+}
+
+.footerLinks {
+    padding-left: 8px;
+    padding-right: 8px;
+}

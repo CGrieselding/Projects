@@ -1,0 +1,14 @@
+.bodyWrapper {
+    overflow: hidden;
+    background-color: #e0e1e1;
+}
+
+@font-face {
+    font-family: "Logo Font";
+    src: url(./Assets/AquireBold-8Ma60.otf);
+}
+
+@font-face {
+    font-family: "NavBar Font";
+    src: url(./Assets/AquireLight-YzE0o.otf);
+}
