@@ -1,21 +1,21 @@
 .navbar {
-    position: fixed !important;
-    width: 100vw;
-    z-index: 1;
+  position: fixed !important;
+  width: 100vw;
+  z-index: 1;
 }
 
 #navBarLogo {
-    font-family: "Logo Font";
-    font-size: 45px;
-    color: whitesmoke;
+  font-family: "Logo Font";
+  font-size: 45px;
+  color: whitesmoke;
 }
 
 #navbarNavAltMarkup {
-    font-family: "NavBar Font";
-    font-size: 21px;
-    padding-right: 15px;
+  font-family: "NavBar Font";
+  font-size: 21px;
+  padding-right: 15px;
 }
 
 #navDivider {
-    border-right: 1.5px solid whitesmoke;
+  border-right: 1.5px solid whitesmoke;
 }

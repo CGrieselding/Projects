@@ -1,193 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-    crossorigin="anonymous"/>
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="Assets/Favicon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="Assets/Favicon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="Assets/Favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="Assets/Favicon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="Assets/Favicon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="Assets/Favicon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="Assets/Favicon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="Assets/Favicon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Assets/Favicon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Assets/Favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Assets/Favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Assets/Favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Assets/Favicon/favicon-128.png"
+      sizes="128x128"
+    />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta
+      name="msapplication-TileImage"
+      content="Assets/Favicon/mstile-144x144.png"
+    />
+    <meta
+      name="msapplication-square70x70logo"
+      content="Assets/Favicon/mstile-70x70.png"
+    />
+    <meta
+      name="msapplication-square150x150logo"
+      content="Assets/Favicon/mstile-150x150.png"
+    />
+    <meta
+      name="msapplication-wide310x150logo"
+      content="Assets/Favicon/mstile-310x150.png"
+    />
+    <meta
+      name="msapplication-square310x310logo"
+      content="Assets/Favicon/mstile-310x310.png"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="./css/00-main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/00-main.css" />
 
     <title>Cameron Grieselding</title>
-</head>
-<body>
-  <div class="bodyWrapper">
+  </head>
+  <body>
+    <div class="bodyWrapper">
+      <div class="topWrapper">
+        <section id="topOfPage">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a
+                class="navbar-brand active"
+                id="navBarLogo"
+                aria-current="page"
+                href="#topOfPage"
+                >CG</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse ms-auto"
+                id="navbarNavAltMarkup"
+              >
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link" id="navDivider" href="#about">About Me</a>
+                  <a class="nav-link" id="navDivider" href="#myWork"
+                    >My Work
+                  </a>
+                  <a class="nav-link" href="#contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </section>
 
-    <div class="topWrapper">
-      <section id="topOfPage">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+        <section id="intro">
+          <div class="intro-content">
+            <div class="intro-content-inner">
+              <h1 class="display-1"><span>Cameron Grieselding</span></h1>
+              <h5 id="introText">
+                I'm an Indianapolis-based web designer & full-stack developer
+                focused on crafting clean & user-friendly experiences
+              </h5>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="about">
+        <h1 id="aboutMeTitle">┣ About Me ┫</h1>
+
         <div class="container-fluid">
-          <a class="navbar-brand active" id="navBarLogo" aria-current="page" href="#topOfPage">CG</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link" id="navDivider" href="#about">About Me</a>
-              <a class="nav-link" id="navDivider" href="#myWork">My Work </a>
-              <a class="nav-link" href="#contact">Contact</a>
+          <div class="row justify-content-center">
+            <div class="col">
+              <img
+                src="./Assets/102869760_10220727196963314_4974860855900812760_n.jpg"
+                class="img-fluid"
+                id="myPicture"
+              />
+            </div>
+            <div class="col">
+              <h5 id="aboutMeText">
+                Hello! My name is Cameron Grieselding and I am recent web
+                development graduate of Eleven Fifty Academy (EFA), a nonprofit
+                code and cybersecurity school. EFA's 12-week immersive learning
+                program for web development is taught with industry-guided
+                curriculum, real-world project-based learning, and is comprised
+                of 500+ hours of logged coding time and training.
+              </h5>
+              <h5 id="aboutMeText">
+                Prior to pursuing my coding profession, I worked at the
+                University of Michigan Hospital as a medical assistant
+                intermediate for five and a half years. In this role I supported
+                over 90 healthcare providers and worked closely with nursing,
+                advanced practice, and physicians in the cardiology, aortic
+                disease, neurology, vascular surgery, and cardiac surgery
+                departments. My favorite part of this position was conducting
+                our cardiac surgery pre-operative teachings, which included
+                rigorous attention to detail. Having the unique opportunity to
+                work in a world-renowned hospital has provided me with a
+                multitude of experiences that have encouraged me to grow as an
+                individual and as an employee. I listen and communicate well
+                with my coworkers and motivate them in their work. I lead by
+                example with my ability to interact well with others and
+                facilitate an enjoyable learning environment. I strongly believe
+                that one of the best ways to improve as an employee is getting
+                uncomfortable, healthily pushing yourself, and always being open
+                to learning something new.
+              </h5>
+              <h5 id="aboutMeText">
+                Upon moving to Indianapolis, IN in April my career interests
+                began to shift to the technology field as I saw the demand in
+                the job market. I've always really enjoyed constructing things
+                from nothing, creatively problem-solving when issues arise,
+                critically thinking, and being able to admire my work in the
+                end. After careful deliberation and plenty of research, I found
+                myself enrolling at EFA and becoming eager to learn something
+                new. As a web developer, I'd love the opportunity to utilize my
+                newly acquired skillset, continue to develop my competencies,
+                and be able to put others first at your company.
+              </h5>
+              <h5 id="aboutMeText">
+                When I'm not busy working in Visual Studio Code, I love running
+                (I'm currently training for a half marathon), reading, gaming,
+                traveling, wakesurfing, snowboarding, and exploring new
+                restaurants. Want to know more? Check out my resume!
+              </h5>
+              <a
+                href="Assets/C-Grieselding-Resume.pdf"
+                id="myResume"
+                style="text-decoration: none"
+                alt="resume"
+                target="_blank"
+                >Download Resume</a
+              >
             </div>
           </div>
         </div>
-      </nav>
       </section>
 
-      <section id="intro">
-            <div class="intro-content">
-                <div class="intro-content-inner">
-                  <h1 class="display-1"><span>Cameron Grieselding</span></h1>
-                  <h5 id="introText">I'm an Indianapolis-based web designer & full-stack developer focused on crafting clean & user-friendly experiences</h5>
-                  </div>
-              </div>
-      </section>
-    </div>
+      <section id="myWork">
+        <h1 id="myWorkTitle">┣ My Work ┫</h1>
 
-    <section id="about">
-
-      <h1 id="aboutMeTitle">┣ About Me ┫</h1>
-
-      <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div class="col">
-            <img src="./Assets/102869760_10220727196963314_4974860855900812760_n.jpg" class="img-fluid" id="myPicture">
-          </div>
-          <div class="col">
-            <h5 id="aboutMeText">Hello! My name is Cameron Grieselding and I am currently a web development student at Eleven Fifty Academy (EFA), a nonprofit code
-              and cybersecurity school.</h5>
-            <h5 id="aboutMeText">Prior to pursuing my coding career, I worked at the University of Michigan Hospital as a medical assistant intermediate for five and a half years. In this role I
-                supported over 90 healthcare providers and worked closely with nursing, advanced practice, and physicians in the cardiology, aortic disease, neurology,
-                vascular surgery, and cardiac surgery departments. My favorite part of this position was conducting our cardiac surgery pre-operative teachings, which
-                included rigorous attention to detail.
-            </h5>
-            <h5 id="aboutMeText"> Having the unique opportunity to work in a world-renowned hospital has provided me with a multitude of experiences that have encouraged me to grow as an
-              individual and as an employee. However, upon moving to Indianapolis, IN my career interests began to shift to the technology field. I've always really enjoyed 
-              creating things from nothing, problem-solving when issues arise, and then being able to admire my work in the end. After careful deliberation and
-              plenty of research, I found myself enrolling at EFA and becoming eager to learn something new.
-            </h5>
-            <h5 id="aboutMeText">
-              When I'm not busy working in Visual Studio Code, I love running (I'm currently training for a half marathon), reading, gaming, traveling, wakesurfing, snowboarding, and exploring new restaurants.
-            </h5>
-
-            <h5 id="aboutMeText"> Want to know more? Check out my resume! </h5>
-                <a href="Assets/CGrieselding_Resume.pdf" id="myResume" style="text-decoration: none;" alt="resume" target="_blank">Download Resume</a>
-            </div>
-          </div>
-        </div>
-    </section>
-
-
-    <section id="myWork">
-
-      <h1 id="myWorkTitle">┣ My Work ┫</h1>
-
-      <div class="container overflow-hidden">
-        <div class="row gy-5">
-          <div class="col" id="myEFAWork">
-            <div class="p-3 border bg-light">
-              <div class="card" style="width: 30rem;">
-                <img src="./Assets/Screen Shot 2021-08-09 at 10.23.09 PM 2.png" class="card-img-top" alt="css-creature">
-                <div class="card-body">
-                  <h5 class="card-title">》 CSS Creature 《</h5>
-                  <p class="card-text">A simple creation strictly using CSS on CodePen.</p>
-                  <a href="https://codepen.io/cmgrieselding/pen/QWvMwjx" class="btn btn-primary" id="myEFAWorkButton" target="_blank">Check It Out!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" id="myEFAWork">
-            <div class="p-3 border bg-light">
-              <div class="card" style="width: 30rem;">
-                <img src="./Assets/Screen Shot 2021-08-09 at 10.20.01 PM 2.png" class="card-img-top" alt="static-layout">
-                <div class="card-body">
-                  <h5 class="card-title">》 Static Layout 《</h5>
-                  <p class="card-text">A fixed reconstruction of a website home page using HTML and CSS.</p>
-                  <a href="https://cgrieselding.github.io/staticLayout/" class="btn btn-primary" id="myEFAWorkButton" target="_blank">Check It Out!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" id="myEFAWork">
-            <div class="p-3 border bg-light">
-              <div class="card" style="width: 30rem;">
-                <img src="./Assets/Screen Shot 2021-08-09 at 10.27.00 PM 2.png" class="card-img-top" alt="api-1">
-                <div class="card-body">
-                  <h5 class="card-title">》 API Challenge #1 《</h5>
-                  <p class="card-text">An implementation of fetch to pull data from an API and utilizing DOM manipulation to display it on an HTML page.</p>
-                  <a href=" https://cgrieselding.github.io/API-Challenge-1/" class="btn btn-primary" id="myEFAWorkButton" target="_blank">Check It Out!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col" id="myEFAWork">
-            <div class="p-3 border bg-light">
+        <div class="container overflow-hidden">
+          <div class="row gy-5">
+            <div class="col" id="myEFAWork">
               <div class="p-3 border bg-light">
-                <div class="card" style="width: 30rem;">
-                  <img src="./Assets/Screen Shot 2021-08-11 at 9.14.20 PM 2.png" class="card-img-top" alt="api-2">
+                <div class="card" style="width: 30rem">
+                  <img
+                    src="./Assets/css-creature-img.png"
+                    class="card-img-top"
+                    alt="css-creature"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">》 CSS Creature 《</h5>
+                    <p class="card-text">
+                      A simple creation strictly using CSS features on CodePen.
+                    </p>
+                    <br />
+                    <a
+                      href="https://codepen.io/cmgrieselding/pen/QWvMwjx"
+                      class="btn btn-primary"
+                      id="myEFAWorkButton"
+                      target="_blank"
+                      >Check It Out!</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="myEFAWork">
+              <div class="p-3 border bg-light">
+                <div class="card" style="width: 30rem">
+                  <img
+                    src="./Assets/static-layout-img.png"
+                    class="card-img-top"
+                    alt="static-layout"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">》 Static Layout 《</h5>
+                    <p class="card-text">
+                      A fixed reconstruction of a website home page using HTML
+                      and CSS.
+                    </p>
+                    <a
+                      href="https://cgrieselding.github.io/staticLayout/"
+                      class="btn btn-primary"
+                      id="myEFAWorkButton"
+                      target="_blank"
+                      >Check It Out!</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="myEFAWork">
+              <div class="p-3 border bg-light">
+                <div class="card" style="width: 30rem">
+                  <img
+                    src="./Assets/api-1-img.png"
+                    class="card-img-top"
+                    alt="api-1"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">》 API Challenge #1 《</h5>
+                    <p class="card-text">
+                      An implementation of fetch to pull data from an API and
+                      utilizing DOM manipulation to display it on an HTML page.
+                    </p>
+                    <br />
+                    <br />
+                    <br />
+                    <a
+                      href="https://cgrieselding.github.io/API-Challenge-1/"
+                      class="btn btn-primary"
+                      id="myEFAWorkButton"
+                      target="_blank"
+                      >Check It Out!</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="myEFAWork">
+              <div class="p-3 border bg-light">
+                <div class="card" style="width: 30rem">
+                  <img
+                    src="./Assets/api-2-img.png"
+                    class="card-img-top"
+                    alt="api-2"
+                  />
                   <div class="card-body">
                     <h5 class="card-title">》 API Challenge #2 《</h5>
-                    <p class="card-text">A fabrication of dynamic client side web application using fetch and DOM manipulation, while interacting with a complex API and Bootstrap for styling.</p>
-                    <a href="https://cg-api-challenge-2.web.app/" class="btn btn-primary" id="myEFAWorkButton" target="_blank">Check It Out!</a>
+                    <p class="card-text">
+                      A fabrication of dynamic client side web application using
+                      fetch and DOM manipulation, while interacting with a
+                      complex API and Bootstrap for styling.
+                    </p>
+                    <br />
+                    <br />
+                    <a
+                      href="https://cg-api-challenge-2.web.app/"
+                      class="btn btn-primary"
+                      id="myEFAWorkButton"
+                      target="_blank"
+                      >Check It Out!</a
+                    >
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="col" id="myEFAWork">
+              <div class="p-3 border bg-light">
+                <div class="card" style="width: 30rem">
+                  <img
+                    src="./Assets/video-game-review-img.png"
+                    class="card-img-top"
+                    alt="video-game-review-app"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">》 Video Game Review App 《</h5>
+                    <p class="card-text">
+                      A full-stack application that uses Express, PostgreSQL,
+                      React, and Node and incorporates full CRUD functionality,
+                      supports session validation with JWT, encrypts passwords,
+                      contains 7 server endpoints, and applies form validation.
+                    </p>
+                    <br />
+                    <br />
+                    <a
+                      href="https://boolean-bandits-reviews-client.herokuapp.com/"
+                      class="btn btn-primary"
+                      id="myEFAWorkButton"
+                      target="_blank"
+                      >Check It Out!</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="myEFAWork">
+              <div class="p-3 border bg-light">
+                <div class="card" style="width: 30rem">
+                  <img
+                    src="./Assets/griz-auto-detailing-img.png"
+                    class="card-img-top"
+                    alt="griz-auto-detailing-app"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">》 Griz Auto Detailing App 《</h5>
+                    <p class="card-text">
+                      A full-stack application built using Express, PostgreSQL,
+                      React, Node, and Material UI. The code was written in
+                      Typescript and utilizes class components, lifecycle
+                      methods, props & state management, role based access
+                      control, form validation, React Router, and fetches to the
+                      server’s 18 REST API endpoints.
+                    </p>
+                    <a
+                      href="https://griz-auto-detailing.herokuapp.com/Home"
+                      class="btn btn-primary"
+                      id="myEFAWorkButton"
+                      target="_blank"
+                      >Check It Out!</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
+      <section id="contact">
+        <h1 id="contactTitle">┣ Contact Me ┫</h1>
 
-    <section id="contact">
-      
-      <h1 id="contactTitle">┣ Contact Me ┫</h1>
+        <form
+          class="row g-3"
+          action="https://formspree.io/f/xpzkygwy"
+          method="POST"
+        >
+          <div class="col-md-12">
+            <label for="your-name" class="form-label">Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              placeholder="Your First & Last Name"
+              required
+            />
+          </div>
+          <div class="col-md-12">
+            <label for="your-email" class="form-label">E-mail:</label>
+            <input
+              type="email"
+              class="form-control"
+              name="_replyto"
+              placeholder="Your E-mail"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <label for="your-message" class="form-label">Message:</label>
+            <textarea
+              type="text"
+              rows="7"
+              class="form-control"
+              name="_message"
+              placeholder="Your Message..."
+              required
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </section>
 
-      <form class="row g-3" action="https://formspree.io/f/xpzkygwy" method="POST">
-        <div class="col-md-12">
-          <label for="your-name" class="form-label">Name:</label>
-          <input type="text" class="form-control" name="name" id="your-name" placeholder="Your First & Last Name" required="">
-        </div>
-        <div class="col-md-12">
-          <label for="your-email" class="form-label">E-mail:</label>
-          <input type="email" class="form-control" name="_replyto" id="your-email" placeholder="Your E-mail" required="">
-        </div>
-        <div class="col-12">
-          <label for="your-message" class="form-label">Message:</label>
-          <textarea type="text" rows="7" class="form-control" name="_subject" id="your-message" placeholder="Your Message..." required=""></textarea>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </div>
-      </form>
-    </section>
-  
-    <footer class="footer">
-      <p id="footerTitle">© Cameron Grieselding 2021<br/></p>
-        <a href="https://www.linkedin.com/in/cameron-grieselding/" target="_blank" class="footerLinks"
-        style="text-decoration: none;">
-          <img src="./Assets/381-3811414_linkedin-thompson-electric-company-linkedin-logo-png-black.jpg" alt="linkedin"
-          width="35px" height="35px">
+      <footer class="footer">
+        <p id="footerTitle">© Cameron Grieselding 2021<br /></p>
+        <a
+          href="https://www.linkedin.com/in/cameron-grieselding/"
+          target="_blank"
+          class="footerLinks"
+          style="text-decoration: none"
+        >
+          <img
+            src="./Assets/381-3811414_linkedin-thompson-electric-company-linkedin-logo-png-black.jpg"
+            alt="linkedin"
+            width="35px"
+            height="35px"
+          />
         </a>
-        <a href="https://github.com/CGrieselding" target="_blank" class="footerLinks">
-          <img src="./Assets/GitHub-Mark-32px.png" alt="github">
+        <a
+          href="https://github.com/CGrieselding"
+          target="_blank"
+          class="footerLinks"
+        >
+          <img src="./Assets/GitHub-Mark-32px.png" alt="github" />
         </a>
-    </footer>
-
-</div>
+      </footer>
+    </div>
 
     <script src="./script.js"></script>
     <script>
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
+      src =
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js";
+      integrity =
+        "sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM";
+      crossorigin = "anonymous";
     </script>
-    
-</body>
+  </body>
 </html>

@@ -17,7 +17,7 @@
     font-weight: bolder;
 }
 
-input:focus, textarea:focus, input[type]:focus, .uneditable-input:focus {   
+input:focus, textarea:focus, input[type]:focus, .uneditable-input:focus, .btn:focus {   
     border-color: #22afb4 !important;
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #22afb4 !important;
     outline: 0 none !important;
